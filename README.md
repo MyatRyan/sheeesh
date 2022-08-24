@@ -1,4 +1,3 @@
-This is HTML file.
 <!DOCTYPE html>
 <html>
 <head>
