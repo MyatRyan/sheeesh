@@ -1,10 +1,58 @@
-       h1{
-         color:blue;
-         font-family: Roboto;
-         font-weight: bold;
-     }
+       
+
     
      img {
-        max-width:50%;
-        max-height:40%
+        max-width:20%;
+        max-height:20%;
      }
+
+     .colun {
+     width: 50%;
+     }
+
+     .col1{
+      
+      background-color: red;
+     }
+    
+     .col2 {
+      display: inline-block 90%;
+      background-color: pink;
+     }
+
+     .title {
+      font-size: 45%;
+     }
+
+     .col1 h1 {
+      color: white;
+     }
+
+     #uno {
+      border: 12px solid black;
+     }
+     
+     h1.title {
+      font: 40%;
+     }
+
+     .hero{
+        height : 100px;
+        background-image: url(ryan.png);
+        background-repeat: no-repeat;
+       background-size: cover; 
+        position: relative;
+
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: (-50%, -50%);
+        
+        }
+
+        .intro {
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: (-50%, -50%);
+        }
