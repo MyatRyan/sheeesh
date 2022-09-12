@@ -1,13 +1,11 @@
-       
-
-    
-     img {
-        max-width:20%;
-        max-height:20%;
+     
+      img {
+        max-width:100%;
      }
 
-     .colun {
-     width: 50%;
+     .column {
+      display: inline-block;
+     width: 48%;
      }
 
      .col1{
@@ -37,10 +35,8 @@
      }
 
      .hero{
-        height : 100px;
         background-image: url(ryan.png);
         background-repeat: no-repeat;
-       background-size: cover; 
         position: relative;
 
         position: absolute;
@@ -55,4 +51,46 @@
             left: 50%;
             top: 50%;
             transform: (-50%, -50%);
+        }
+        /**ABOUT SECTION**/
+        .container {
+         max-width: 900px;
+         display: block;
+         margin: auto;
+        }
+
+        .col-30 {
+         width: 29%;
+        }
+
+        .col-70 {
+         width: 69%;
+        }
+
+        .content{
+         vertical-align: top;
+         padding-left: 2px;
+         padding-bottom: 30px;
+        }
+        
+        @media screen and (max-width: 767px)  {
+           .column {
+             display: block;
+             width: 100%;
+           }
+        }
+      
+        .no-list, .nav-items {
+         list-style: none;
+         padding: 0;  /* top right buttom left */
+        }
+
+        .nav-items li {
+           display: inline-block;
+           width: 100px;
+        }
+
+        .nav-items li:hover {
+         background-color: blue;
+         cursor: pointer;
         }
